@@ -1,0 +1,13 @@
+:root{--pink:#f3649b;--gold:#e4c46c}
+body{font-family:"Montserrat",Arial,sans-serif;margin:0;color:#222;background:#fff}
+.container{max-width:1100px;margin:0 auto;padding:0 1rem}
+.service-card{border-radius:12px;background:linear-gradient(90deg,var(--pink),var(--gold));color:#fff}
+.pricing .table{background:#fff}
+/* CTA and footer */
+.bg-light { background:var(--muted); }
+.footer { background:#111; color:#fff; }
+
+.socials i {
+  font-size: 1.2rem;
+  margin-right: 6px;
+}

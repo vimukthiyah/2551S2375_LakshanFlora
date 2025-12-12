@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Lakshan Flora — handcrafted bouquets and event florals" />
+  <title>Lakshan Flora — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preload" as="image" href="Assets\Home Hero Image.png">
+  <link rel="icon" href="Assets\Lakshan Flora Logo.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="Assets\Lakshan Flora Logo.png" alt="Lakshan Flora logo" class="logo" width="44" height="44">
+          <span class="brand-text ms-2">Lakshan Flora</span>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMain" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+        <!-- HERO SECTION -->
+        <main>
+      <section class="hero" role="img" aria-label="Fresh floral arrangement" id="hero-section">
+        <picture>
+          <img src="Assets\Home Hero Image.png"
+              alt="Fresh floral arrangement on display"
+              class="hero-fallback"
+              width="1600" height="900" loading="eager" fetchpriority="high">
+        </picture>
+
+        <div class="hero-content container">
+          <h1 class="hero-title"><b>Fresh flowers, crafted with care</b></h1>
+          <p class="hero-sub"><b>Handmade bouquets and event florals for every special moment.</b></p>
+          <a href="services.html" class="btn hero-btn"><b>Explore Services</b></a>
+        </div>
+
+        <!-- LIQUID GRADIENT -->
+        <svg class="liquid" aria-hidden="true" viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#f3649b"/><stop offset="1" stop-color="#e4c46c"/></linearGradient></defs>
+          <path fill="url(#g1)" d="M0 20 C200 100, 400 0, 720 40 C1040 80, 1200 10, 1440 60 L1440 120 L0 120 Z"></path>
+        </svg>
+      </section>
+    <!-- FEATURED CARDS -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Featured Arrangements</h2>
+        <div class="row g-4">
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="Assets\Romantic Bouquet.jpg" alt="Romantic bouquet" width="800" height="533" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Romantic Bouquet</h5>
+                <p class="card-text">A classic mix of seasonal blooms — perfect for special moments.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="Assets\Wedding Arch Florals.jpg" alt="Wedding arch florals" width="800" height="533" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Wedding Arch Florals</h5>
+                <p class="card-text">Large-scale floral designs for ceremonies and receptions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="Assets\Corporate Floral Arrangement.webp" alt="Corporate arrangements" width="800" height="533" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Corporate Arrangements</h5>
+                <p class="card-text">Minimalist centrepieces for offices and events.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-4 bg-light">
+      <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row">
+        <div>
+          <h3 class="mb-0">Make your moment memorable</h3>
+          <p class="mb-0 text-muted">We design flowers for celebrations, businesses and more.</p>
+        </div>
+        <div class="mt-3 mt-md-0">
+          <a class="btn btn-outline-primary" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <small>&copy; <span id="year-home"></span> Lakshan Flora</small>
+    <div class="socials">
+      <a href="https://instagram.com" target="_blank" class="text-white me-3">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+
+      <a href="https://facebook.com" target="_blank" class="text-white me-3">
+        <i class="bi bi-facebook"></i> Facebook
+      </a>
+
+      <a href="https://wa.me/94771234567" target="_blank" class="text-white">
+        <i class="bi bi-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/index.js" defer></script>
+</body>
+</html>

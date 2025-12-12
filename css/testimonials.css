@@ -1,0 +1,44 @@
+:root{
+  --pink: #f3649b;
+  --gold: #e4c46c;
+  --muted: #f8f7f5;
+  --text: #222;
+}
+*{box-sizing:border-box}
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+  margin: 0;
+}
+
+/* Navbar */
+.logo { width:44px; height:44px; object-fit:cover; border-radius:6px; }
+.brand-text { font-weight:600; color:var(--text); }
+*{box-sizing:border-box}
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+  margin: 0;
+}
+
+blockquote {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 0 auto;
+  max-width: 760px;
+}
+@media (max-width:768px){
+  .hero { padding:2rem 1rem; min-height:42vh; }
+  .card-img-top { height:160px; }
+}
+/* CTA and footer */
+.bg-light { background:var(--muted); }
+.footer { background:#111; color:#fff; }
+
+.socials i {
+  font-size: 1.2rem;
+  margin-right: 6px;
+}
